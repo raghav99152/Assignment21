@@ -1,0 +1,501 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+.bgimg {
+    background: linear-gradient(0deg, #03030391, #5555559c), url(./img/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    BACKGROUND-SIZE: cover;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+}
+
+.anchortag a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #817b7b57;
+}
+
+strong {
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+span.studio {
+    color: #ff0d0d;
+}
+
+.anchortag button {
+    margin-left: 17px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+a.home {
+    color: red;
+}
+
+.center {
+    color: white;
+    display: grid;
+    place-content: center;
+    height: 65vh;
+    text-align: center;
+    gap: 32px;
+    text-transform: uppercase;
+}
+
+.center h2 {
+    font-size: 53px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+span.gym {
+    color: red;
+}
+
+.center button {
+    background-color: red;
+    color: white;
+    width: 24%;
+    border: none;
+    padding: 12px;
+    border-radius: 2px;
+    margin-left: 231px;
+}
+
+.textcenter {
+    text-align: center;
+    margin-top: 97px;
+}
+
+span.red {
+    color: red;
+}
+
+.textcenter h2 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.textcenter i {
+    color: red;
+    margin-top: 25px;
+    font-size: 21px;
+}
+
+.textcenter p {
+    color: #00000096;
+    margin-top: 17px;
+}
+
+.box i {
+    height: 79px;
+    border-radius: 7px;
+    width: 79px;
+    background-color: red;
+    text-align: center;
+    line-height: 3;
+}
+
+.fle12 {
+    display: flex;
+    gap: 23px;
+}
+
+.txt12 h2 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.txt12 p {
+    margin-top: 6px;
+    color: #696969f7;
+}
+
+span.more p {
+    color: red;
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 74px;
+    margin-top: 81px;
+}
+
+.bgimg2 {
+    background: linear-gradient(0deg, #252323ba, #555555a1), url(./img/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+    BACKGROUND-SIZE: cover;
+    margin-top: 110px;
+}
+
+.txt3 {
+    color: white;
+
+    text-align: center;
+    padding-top: 71px;
+    margin-bottom: 10px;
+}
+
+.txt3 p {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.txt3 h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.txt3 button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 2px;
+    text-transform: capitalize;
+}
+
+.box1 {
+    padding: 21px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 12px;
+    text-align: start;
+}
+
+img {
+    width: 100%;
+}
+
+.right img {
+    width: 450px;
+    height: 180px;
+}
+
+.left button {
+    color: white;
+    background-color: red;
+    border: none;
+    width: 91%;
+    border-radius: 6px;
+    margin: 12px;
+    padding: 21px;
+}
+
+.txt23 {
+    margin: 12px;
+}
+
+.txt23 p {
+    margin: 21px 0px 20px 0px;
+}
+
+.main3 {
+    display: flex;
+    gap: 20px;
+    margin-top: 132px;
+    justify-content: center;
+}
+
+.txt23 button {
+    color: white;
+    background-color: red;
+    border: none;
+    /* width: 91%; */
+    border-radius: 6px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.bgimg3 {
+    background: linear-gradient(0deg, #252323ba, #555555a1), url(./img/premium_photo-1663036263525-3059e0c47b96.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.white {
+    color: white;
+}
+
+p.white {
+    color: white;
+}
+
+.margn23 {
+    /* margin-top: 20px; */
+    padding-top: 126px;
+}
+
+.weakdays {
+    text-align: center;
+    margin-top: 47px;
+    color: white;
+}
+
+table.tbl td {
+    border-collapse: collapse;
+    color: white;
+    padding: 30px;
+    border: 2px solid white;
+}
+
+table.tbl {
+    margin: 0 auto;
+    margin-top: 53px;
+}
+
+.box23 img {
+    width: 223px;
+    height: 170px;
+    border-radius: 6px;
+}
+
+.box23 {
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 16%;
+}
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 51px;
+}
+
+.box23 h3 {
+    margin: 12px 0px 12px 0px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.main4 p {
+    color: #0000009c;
+    margin: 13px 0px 15px 0px;
+}
+
+.font {
+    margin-top: 14PX;
+    display: flex;
+    gap: 14px;
+}
+
+span.red p {
+    color: #db7419;
+}
+
+.bgimg4 {
+    background: linear-gradient(0deg, #252323, #555555b3), url(./img/premium_photo-1663036263525-3059e0c47b96.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 450px;
+    width: 752px;
+}
+
+.last {
+    display: flex;
+    margin-top: 51px;
+}
+
+form {
+    background-color: white;
+    width: 550px;
+    height: 310px;
+    padding: 33px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+input.name {
+    padding: 12px 46px;
+    margin: 5px;
+}
+
+input.subject {
+    padding: 11px 181px;
+    margin: 5px;
+}
+textarea.message {
+ padding: 11px 181px;
+ margin: 5px;
+}
+textarea.message {
+    padding: 10px 145px;
+    margin: 5px;
+}
+form button {
+    background-color: red;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 12px;
+}
+footer p {
+    text-align: center;
+    padding: 20px;
+}
